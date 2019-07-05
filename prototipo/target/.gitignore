@@ -1,2 +1,6 @@
 /classes/
 /test-classes/
+/prototipo/WEB-INF/lib/
+/prototipo/WEB-INF/classes/
+/prototipo.war
+/*.war
