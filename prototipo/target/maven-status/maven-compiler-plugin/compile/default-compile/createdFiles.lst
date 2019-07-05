@@ -4,6 +4,7 @@ net\atos\mira\prototip\service\UserService.class
 net\atos\mira\prototip\web\security\AuthenticationFailureHandlerPersonalizado.class
 net\atos\mira\prototip\modelo\entities\ConfiguracionId$ConfiguracionIdBuilder.class
 net\atos\mira\prototip\modelo\entities\Role$RoleBuilder.class
+net\atos\mira\prototip\restplo\JerseyService.class
 net\atos\mira\prototip\service\LoginService.class
 net\atos\mira\prototip\configuracion\persistence\AuditableJpaConfig.class
 net\atos\mira\prototip\modelo\search\UserSearch$UserSearchBuilder.class
