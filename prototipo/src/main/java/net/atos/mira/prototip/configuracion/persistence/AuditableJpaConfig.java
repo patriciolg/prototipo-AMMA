@@ -28,4 +28,5 @@ public class AuditableJpaConfig {
 	public AuditorAware<Long> auditorProvider() {
 		return new UsernameSecurityAuditorAwareImpl();
 	}
-	}
+	
+}
