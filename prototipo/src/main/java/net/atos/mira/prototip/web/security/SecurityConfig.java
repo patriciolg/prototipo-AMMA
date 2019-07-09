@@ -148,6 +148,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		// http.sessionManagement().invalidSessionUrl(Constantes.RUTALOGIN).maximumSessions(MAXCONCURRENTUSERSESSIONS)
 		// .maxSessionsPreventsLogin(false).sessionRegistry(sessionRegistry()).expiredUrl(Constantes.RUTALOGIN);
 	}
+	
+	/* BYPASS SPRING SECURITY */
+	//   @Override
+	//    protected void configure(HttpSecurity httpSecurity) throws Exception {
+	//        httpSecurity.authorizeRequests().antMatchers("/").permitAll();
+	//}
 
 	/**
 	 * Usado por spring security para saber los usuarios (Principal) que han iniciado sesión.

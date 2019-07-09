@@ -16,7 +16,8 @@ import net.atos.mira.prototip.modelo.entities.User;
 import net.atos.mira.prototip.modelo.repository.UserRepository;
 import net.atos.mira.prototip.modelo.search.UserSearch;
 import net.atos.mira.prototip.service.UserService;
-
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
 /**
  * Implementación de la interfaz donde se define la lógica de negocio para los usuarios.
  * @author ATOS
@@ -29,7 +30,7 @@ public class UserServiceImpl implements UserService {
 	 */
 	@Autowired
 	private SessionFactory sessionFactory;
-
+	
 	/**
 	 * Repositorio de usuarios.
 	 */

@@ -132,26 +132,36 @@
 		 <dependency>
 	        <groupId>org.jadira.usertype</groupId>
 	        <artifactId>usertype.core</artifactId>
-	        <version>5.0.0.GA</version>
+	        <version>6.0.0.GA</version>
 	    </dependency>
 
         <!-- 	   Se elimina cuando tenemos bbdd 12c -->
 	   <!-- https://mvnrepository.com/artifact/oracle/ojdbc6 -->
-			<dependency>
-			    <groupId>com.oracle</groupId>
-			    <artifactId>ojdbc6</artifactId>
-			    <version>11.1.0.7.0</version>
-			</dependency>
+<!-- 			<dependency> -->
+<!-- 			    <groupId>com.oracle</groupId> -->
+<!-- 			    <artifactId>ojdbc6</artifactId> -->
+<!-- 			    <version>11.1.0.7.0</version> -->
+<!-- 			</dependency> -->
 <!--        dependencias de bbdd -->
-        <!--         <dependency> -->
-<!--             <groupId>com.oracle</groupId> -->
-<!--             <artifactId>ojdbc7</artifactId> -->
-<!--             <version>12.1.0.2</version> -->
-<!--         </dependency> -->
-<!-- <dependency> -->
-<!-- 			<groupId>postgresql</groupId> -->
-<!-- 			<artifactId>postgresql</artifactId> -->
-<!-- 			<version>9.1-901-1.jdbc4</version> -->
+                <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc7</artifactId>
+            <version>12.1.0.2</version>
+        </dependency>
+        <dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+</dependency>
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.9.2</version>
+</dependency>
+<!-- 	<dependency> -->
+<!-- 		<groupId>postgresql</groupId> -->
+<!-- 		<artifactId>postgresql</artifactId> -->
+<!-- 		<version>9.1-901-1.jdbc4</version> -->
 <!-- 		</dependency> -->
     </dependencies>
 
